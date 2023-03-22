@@ -1,6 +1,8 @@
-import React from "react";
+import { useState } from "react";
+import DatePicker from "react-datepicker";
 
 export default function SearchBar() {
+  const [startDate, setStartDate] = useState(new Date());
   return (
     <>
       <div className="text-xl">Where are you flying?</div>
@@ -36,6 +38,10 @@ export default function SearchBar() {
           />
         </div>
       </div>
+      {/* <DatePicker
+        selected={startDate}
+        onChange={(date) => setStartDate(date)}
+      /> */}
     </>
   );
 }
