@@ -1,11 +1,18 @@
 import { useState } from "react";
-import DatePicker from "react-datepicker";
+import Image from "next/image";
+import airplane from "../../public/airplane.png";
 
 export default function SearchBar() {
   const [startDate, setStartDate] = useState(new Date());
   return (
     <>
-      <div className="text-xl">Where are you flying?</div>
+      <div className="type">
+        <div>
+          <Image src={airplane} height={24} width={24} alt="airplane" />{" "}
+          <span>Flights</span>
+        </div>
+        <div>Stays</div>
+      </div>
       <div className="input-section flex mt-[32px]">
         <div className="from-input relative">
           <p className="absolute top-[-12px] left-[10px]">
