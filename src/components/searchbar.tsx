@@ -8,8 +8,11 @@ export default function SearchBar() {
     <>
       <div className="type">
         <div>
-          <Image src={airplane} height={24} width={24} alt="airplane" />{" "}
-          <span>Flights</span>
+          <span>
+            {/* <img src={airplane} alt="airplane" /> */}
+            <Image src={airplane} height={24} width={24} alt="airplane" />
+            <span>Flights</span>
+          </span>
         </div>
         <div>Stays</div>
       </div>
