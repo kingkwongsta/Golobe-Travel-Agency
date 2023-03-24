@@ -6,9 +6,9 @@ import stays from "./../../../public/bed.png";
 export default function SearchBar() {
   const [startDate, setStartDate] = useState(new Date());
   return (
-    <>
+    <div className="mx-[32px]">
       {/*-------- FLIGHTS OR STAY --------*/}
-      <div className="top-icons flex flex-row gap-6">
+      <div className="top-icons flex flex-row items-center gap-6 my-6">
         <div className="flex flex-row">
           <Image src={airplane} height={24} width={24} alt="airplane" />
           <span>Flights</span>
@@ -20,7 +20,7 @@ export default function SearchBar() {
         </div>
       </div>
       {/*-------- TRAVEL INPUT --------*/}
-      <div className="input-section flex mt-[32px]">
+      <div className="input-section flex my-6">
         <div className="from-input relative">
           <p className="absolute top-[-12px] left-[10px]">
             <span className="bg-white pl-2 pr-1.5">From - To</span>
@@ -53,6 +53,10 @@ export default function SearchBar() {
         </div>
       </div>
       {/*-------- PROMO + SHOW OPTIONS BUTTON --------*/}
-    </>
+      <div className="flex flex-row items-center gap-6 my-6">
+        <p>+ Add Promo Code</p>
+        <button className="btn btn-primary">Show Flights</button>
+      </div>
+    </div>
   );
 }
