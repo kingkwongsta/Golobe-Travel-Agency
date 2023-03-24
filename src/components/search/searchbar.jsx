@@ -1,20 +1,21 @@
 import { useState } from "react";
 import Image from "next/image";
-import airplane from "../../public/airplane.png";
+import airplane from "./../../../public/airplane.png";
+import stays from "./../../../public/bed.png";
 
 export default function SearchBar() {
   const [startDate, setStartDate] = useState(new Date());
   return (
     <>
-      <div className="type">
-        <div>
-          <span>
-            {/* <img src={airplane} alt="airplane" /> */}
-            <Image src={airplane} height={24} width={24} alt="airplane" />
-            <span>Flights</span>
-          </span>
+      <div className="top-icons flex flex-row gap-6">
+        <div className="flex flex-row">
+          <Image src={airplane} height={24} width={24} alt="airplane" />
+          <span>Flights</span>
         </div>
-        <div>Stays</div>
+        <div className="flex flex-row">
+          <Image src={stays} height={24} width={24} alt="airplane" />
+          <span>Stays</span>
+        </div>
       </div>
       <div className="input-section flex mt-[32px]">
         <div className="from-input relative">
