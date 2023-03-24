@@ -7,16 +7,19 @@ export default function SearchBar() {
   const [startDate, setStartDate] = useState(new Date());
   return (
     <>
+      {/*-------- FLIGHTS OR STAY --------*/}
       <div className="top-icons flex flex-row gap-6">
         <div className="flex flex-row">
           <Image src={airplane} height={24} width={24} alt="airplane" />
           <span>Flights</span>
         </div>
+        <div className="vertical-line border-l-[1px] h-8"></div>
         <div className="flex flex-row">
           <Image src={stays} height={24} width={24} alt="airplane" />
           <span>Stays</span>
         </div>
       </div>
+      {/*-------- TRAVEL INPUT --------*/}
       <div className="input-section flex mt-[32px]">
         <div className="from-input relative">
           <p className="absolute top-[-12px] left-[10px]">
@@ -49,10 +52,7 @@ export default function SearchBar() {
           />
         </div>
       </div>
-      {/* <DatePicker
-        selected={startDate}
-        onChange={(date) => setStartDate(date)}
-      /> */}
+      {/*-------- PROMO + SHOW OPTIONS BUTTON --------*/}
     </>
   );
 }
