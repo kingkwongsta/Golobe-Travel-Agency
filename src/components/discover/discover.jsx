@@ -6,13 +6,23 @@ export default function Discovery() {
     const cityElements = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     return cityElements.map((x, index) => {
       return (
-        <Image
-          key={index}
-          src={placeholder}
-          width={90}
-          height={90}
-          alt="placeholder"
-        />
+        <div className="flex items-center" key={index}>
+          <Image
+            className="mr-[16px]"
+            src={placeholder}
+            width={90}
+            height={90}
+            alt="placeholder"
+          />
+          <div>
+            <p>Istanbul, Turkey</p>
+            <span>Flights </span>
+            <span> . </span>
+            <span> Hotels </span>
+            <span> . </span>
+            <span> Resorts</span>
+          </div>
+        </div>
       );
     });
   }
