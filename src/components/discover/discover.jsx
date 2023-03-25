@@ -1,4 +1,21 @@
+import placeholder from "./../../../public/discover-placeholder.png";
+import Image from "next/image";
+
 export default function Discovery() {
+  function renderCityElements() {
+    const cityElements = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    return cityElements.map((x, index) => {
+      return (
+        <Image
+          key={index}
+          src={placeholder}
+          width={90}
+          height={90}
+          alt="placeholder"
+        />
+      );
+    });
+  }
   return (
     <div className="mx-[32px]">
       <div className="flex flex-row justify-between content-center">
@@ -10,6 +27,7 @@ export default function Discovery() {
         </div>
         <button className="btn btn-outline">See more places</button>
       </div>
+      <div className="grid grid-cols-3">{renderCityElements()}</div>
     </div>
   );
 }
