@@ -13,6 +13,12 @@ module.exports = {
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {
-    themes: ["emerald"],
+    themes: [
+      {
+        emerald: {
+          ...require("daisyui/src/colors/themes")["[data-theme=emerald]"],
+        },
+      },
+    ],
   },
 };
