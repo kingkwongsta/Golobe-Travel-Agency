@@ -1,17 +1,24 @@
+import Image from "next/image";
+import airplane from "./../../public/airplane.png";
+import stays from "./../../public/bed.png";
+
 export default function NavBar() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 mx-[16px]">
       <div className="navbar-start">
-        <ul className="menu menu-horizontal px-1">
-          <li>
+        <div className="menu menu-horizontal px-1 sm:max-md:hidden">
+          <div className="flex flex-row mr-5">
+            <Image src={airplane} height={24} width={24} alt="airplane" />
             <a>Find Flights</a>
-          </li>
-          <li>
-            <a>Find Stays</a>
-          </li>
-        </ul>
+          </div>
+          <div className="flex flex-row">
+            <Image src={stays} height={24} width={24} alt="airplane" />
+            <span>Stays</span>
+          </div>
+        </div>
+        {/* Hamburger Menu */}
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <label tabIndex={0} className="btn btn-ghost md:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -32,32 +39,10 @@ export default function NavBar() {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
-            </li>
-            <li tabIndex={0}>
-              <a className="justify-between">
-                Parent
-                <svg
-                  className="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                </svg>
-              </a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <a>Find Flights</a>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>Find Stays</a>
             </li>
           </ul>
         </div>
