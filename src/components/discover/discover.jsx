@@ -1,30 +1,9 @@
-import placeholder from "./../../../public/discover-placeholder.png";
-import Image from "next/image";
+import CityCard from "./citycard";
 
 export default function Discovery() {
   function renderCityElements() {
     const cityElements = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-    return cityElements.map((x, index) => {
-      return (
-        <div className="flex items-center" key={index}>
-          <Image
-            className="mr-[16px]"
-            src={placeholder}
-            width={90}
-            height={90}
-            alt="placeholder"
-          />
-          <div>
-            <p>Istanbul, Turkey</p>
-            <span>Flights </span>
-            <span> . </span>
-            <span> Hotels </span>
-            <span> . </span>
-            <span> Resorts</span>
-          </div>
-        </div>
-      );
-    });
+    return cityElements.map((x, index) => <CityCard key={index} />);
   }
   return (
     <div className="mx-[32px]">
