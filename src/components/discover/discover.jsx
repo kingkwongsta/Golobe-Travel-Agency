@@ -6,7 +6,7 @@ export default function Discovery() {
     return cityElements.map((x, index) => <CityCard key={index} />);
   }
   return (
-    <div className="mx-[32px]">
+    <div className="mx-[32px] max-w-[1232px]">
       <div className="flex flex-row justify-between content-center mb-[40px]">
         <div>
           <h2 className="mb-[16px] text-3xl">Plan your perfect trip</h2>
