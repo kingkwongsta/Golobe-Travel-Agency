@@ -1,6 +1,7 @@
 import Image from "next/image";
 import airplane from "./../../public/airplane.png";
 import stays from "./../../public/bed.png";
+import logo from "./../../public/logo.png";
 
 export default function NavBar() {
   return (
@@ -48,7 +49,7 @@ export default function NavBar() {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost normal-case text-xl">Golobe</a>
+        <Image src={logo} height={36} width={110.35} alt="Golobe Logo" />
       </div>
       <div className="navbar-end">
         <ul className="menu menu-horizontal px-1">
