@@ -16,7 +16,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col items-center">
-        <SearchBar />
+        <div className="basis-auto">
+          <SearchBar />
+        </div>
+
         <Discover />
       </main>
     </>
