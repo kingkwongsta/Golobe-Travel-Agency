@@ -1,10 +1,13 @@
 import Image from "next/image";
+import flightCard from "./../../public/flightcard.avif";
+import stayCard from "./../../public/staycard.avif";
+
 export default function TravelCard() {
   return (
     <div className="relative">
       <Image
         className="max-w-[604px] max-h-[559px] rounded-[20px]"
-        src="https://images.unsplash.com/photo-1609408341205-861253559a83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+        src={flightCard}
         width={604}
         height={559}
         alt="flight bgd"
