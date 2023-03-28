@@ -1,20 +1,52 @@
 import Image from "next/image";
+import flightCard from "./../../public/flightcard.avif";
+import stayCard from "./../../public/staycard.avif";
+
 export default function TravelCard() {
   return (
-    <div className="relative">
-      <Image
-        className="max-w-[604px] max-h-[559px]"
-        src="https://images.unsplash.com/photo-1609408341205-861253559a83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
-        width={604}
-        height={559}
-        alt="flight bgd"
-      />
-      <h2 className="absolute bottom-28 w-full text-center text-4xl text-neutral-50">
-        Flights
-      </h2>
-      <p className="max-w-[389px] absolute bottom-24 w-full text-center text-lg text-neutral-50">
-        Search Flights & Places Hire to our most popular destinations
-      </p>
+    <div className="flex flex-row gap-[24px]">
+      {/* // TRAVEL CARD */}
+      <div className="relative">
+        <Image
+          className="max-w-[604px] max-h-[559px] rounded-[20px]"
+          src={flightCard}
+          width={604}
+          height={559}
+          alt="flight bgd"
+        />
+        <h2 className="absolute bottom-[150px] w-full text-center text-4xl text-neutral-50">
+          Flights
+        </h2>
+        <div className="absolute w-full max-w-[389px]">
+          <p className="absolute bottom-[80px] left-[100px] w-full text-center text-lg text-neutral-50">
+            Search Flights & Places Hire to our most popular destinations
+          </p>
+        </div>
+        <button className="absolute bottom-[20px] left-[220px] btn btn-primary">
+          Show Flights
+        </button>
+      </div>
+      {/* // STAY CARD */}
+      <div className="relative">
+        <Image
+          className="max-w-[604px] max-h-[559px] rounded-[20px]"
+          src={stayCard}
+          width={604}
+          height={559}
+          alt="flight bgd"
+        />
+        <h2 className="absolute bottom-[150px] w-full text-center text-4xl text-neutral-50">
+          Flights
+        </h2>
+        <div className="absolute w-full max-w-[389px]">
+          <p className="absolute bottom-[80px] left-[100px] w-full text-center text-lg text-neutral-50">
+            Search Flights & Places Hire to our most popular destinations
+          </p>
+        </div>
+        <button className="absolute bottom-[20px] left-[220px] btn btn-primary">
+          Show Flights
+        </button>
+      </div>
     </div>
   );
 }
