@@ -12,9 +12,11 @@ export default function TravelCard() {
       <h2 className="absolute bottom-28 w-full text-center text-4xl text-neutral-50">
         Flights
       </h2>
-      <p className="max-w-[389px] absolute bottom-24 w-full text-center text-lg text-neutral-50">
-        Search Flights & Places Hire to our most popular destinations
-      </p>
+      <div className="absolute w-full max-w-[389px]">
+        <p className="absolute bottom-[50px] left-[100px] w-full text-center text-lg text-neutral-50">
+          Search Flights & Places Hire to our most popular destinations
+        </p>
+      </div>
     </div>
   );
 }
