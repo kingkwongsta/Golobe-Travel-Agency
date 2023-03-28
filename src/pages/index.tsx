@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import NavBar from "../components/navbar";
 import SearchBar from "../components/search/searchbar";
 import Discover from "../components/discover/discover";
+import TravelCard from "./../components/travelcard";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,8 +22,8 @@ export default function Home() {
         <div className="basis-auto">
           <SearchBar />
         </div>
-
         <Discover />
+        <TravelCard />
       </main>
     </>
   );
