@@ -19,13 +19,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <main className="flex flex-col items-center">
-        <div className="basis-auto">
-          {/* <SearchBar /> */}
-          <SearchBarTest />
-        </div>
-        <Discover />
-        <TravelCard />
+      <main>
+        <SearchBarTest />
       </main>
     </>
   );
