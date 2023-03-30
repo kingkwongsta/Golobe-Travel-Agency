@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import NavBar from "../components/navbar";
 import SearchBar from "../components/search/searchbar";
+import SearchBarTest from "../components/search/searchbartest";
 import Discover from "../components/discover/discover";
 import TravelCard from "./../components/travelcard";
 
@@ -20,7 +21,8 @@ export default function Home() {
       <NavBar />
       <main className="flex flex-col items-center">
         <div className="basis-auto">
-          <SearchBar />
+          {/* <SearchBar /> */}
+          <SearchBarTest />
         </div>
         <Discover />
         <TravelCard />
