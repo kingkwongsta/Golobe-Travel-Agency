@@ -5,7 +5,7 @@ import stays from "./../../../public/bed.png";
 
 export default function SearchBar() {
   return (
-    <div className="mx-[32px] min-w-[1232px]">
+    <div className="mx-[32px] max-w-[1232px]">
       {/*-------- FLIGHTS OR STAY --------*/}
       <div className="top-icons flex flex-row items-center gap-6 my-6">
         <div className="flex flex-row">
