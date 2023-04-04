@@ -5,6 +5,8 @@ import NavBar from "../components/navbar";
 import SearchBar from "../components/search/searchbar";
 import Discover from "../components/discover/discover";
 import TravelCard from "./../components/travelcard";
+import Test from "./../components/test";
+import Center from "./../components/center";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +19,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <Test />
+      <main className="">
+        <Test />
         <SearchBar />
         <TravelCard />
       </main>
