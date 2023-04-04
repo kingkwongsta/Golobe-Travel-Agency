@@ -9,7 +9,8 @@ export default function SearchBar() {
     <div className="my-[80px] mx-[80px]">
       <div className="relative">
         <Image src={cover} width={1380} height={581} alt="cover-photo" />
-        <div className="max-w-[1232px] border-2 border-solid border-blue-500">
+        {/* Search Bar */}
+        <div className="max-w-[1232px] w-full border-2 border-solid border-blue-500 absolute bottom-[-150px] bg-white">
           {/*-------- FLIGHTS OR STAY --------*/}
           <div className="top-icons flex flex-row items-center gap-6 my-6">
             <div className="flex flex-row">
