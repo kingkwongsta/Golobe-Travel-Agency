@@ -6,11 +6,17 @@ import cover from "./../../../public/landing-page-searchbar.avif";
 
 export default function SearchBar() {
   return (
-    <div className="my-[80px] mx-[80px]">
-      <div className="relative">
-        <Image src={cover} width={1380} height={581} alt="cover-photo" />
+    <div className="mt-[40px] mb-[180px] mx-[80px]">
+      <div className="relative max-w-[1380px] max-h-[581px] flex justify-center">
+        <Image
+          className="rounded-[20px] flex-shrink-0 min-w-full max-w-full"
+          src={cover}
+          width={1380}
+          height={581}
+          alt="cover-photo"
+        />
         {/* Search Bar */}
-        <div className="max-w-[1232px] w-full border-2 border-solid border-blue-500 absolute bottom-[-150px] bg-white">
+        <div className="max-w-[1232px] w-full rounded-lg absolute bottom-[-150px] bg-white shadow-md shadow-[#8dd3bb26]">
           {/*-------- FLIGHTS OR STAY --------*/}
           <div className="top-icons flex flex-row items-center gap-6 my-6">
             <div className="flex flex-row">
