@@ -4,11 +4,11 @@ import stayCard from "./../../public/staycard.avif";
 
 export default function TravelCard() {
   return (
-    <div className="flex flex-row gap-[24px]">
+    <div className="flex flex-row gap-[24px] my-[80px] mx-[80px] max-w-[1232px]">
       {/* // TRAVEL CARD */}
-      <div className="relative">
+      <div className="relative max-w-[604px] max-h-[559px] flex justify-center">
         <Image
-          className="max-w-[604px] max-h-[559px] rounded-[20px]"
+          className="rounded-[20px] flex-shrink-0 min-w-full max-w-full"
           src={flightCard}
           width={604}
           height={559}
@@ -17,19 +17,17 @@ export default function TravelCard() {
         <h2 className="absolute bottom-[150px] w-full text-center text-4xl text-neutral-50">
           Flights
         </h2>
-        <div className="absolute w-full max-w-[389px]">
-          <p className="absolute bottom-[80px] left-[100px] w-full text-center text-lg text-neutral-50">
-            Search Flights & Places Hire to our most popular destinations
-          </p>
-        </div>
-        <button className="absolute bottom-[20px] left-[220px] btn btn-primary">
+        <p className="absolute bottom-[90px] w-full text-center text-md text-neutral-50 max-w-[389px]">
+          Search Flights & Places Hire to our most popular destinations
+        </p>
+        <button className="absolute bottom-[20px] btn btn-primary">
           Show Flights
         </button>
       </div>
       {/* // STAY CARD */}
-      <div className="relative">
+      <div className="relative max-w-[604px] max-h-[559px] flex justify-center">
         <Image
-          className="max-w-[604px] max-h-[559px] rounded-[20px]"
+          className="rounded-[20px] flex-shrink-0 min-w-full max-w-full"
           src={stayCard}
           width={604}
           height={559}
@@ -38,12 +36,10 @@ export default function TravelCard() {
         <h2 className="absolute bottom-[150px] w-full text-center text-4xl text-neutral-50">
           Flights
         </h2>
-        <div className="absolute w-full max-w-[389px]">
-          <p className="absolute bottom-[80px] left-[100px] w-full text-center text-lg text-neutral-50">
-            Search Flights & Places Hire to our most popular destinations
-          </p>
-        </div>
-        <button className="absolute bottom-[20px] left-[220px] btn btn-primary">
+        <p className="absolute bottom-[90px] w-full text-center text-md text-neutral-50 max-w-[389px]">
+          Search Hotels & Places Hire to our most popular destinations
+        </p>
+        <button className="absolute bottom-[20px] btn btn-primary">
           Show Flights
         </button>
       </div>
