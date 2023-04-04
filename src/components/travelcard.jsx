@@ -4,7 +4,7 @@ import stayCard from "./../../public/staycard.avif";
 
 export default function TravelCard() {
   return (
-    <div className="flex flex-row gap-[24px] mx-[32px] max-w-[1232px]">
+    <div className="flex flex-row gap-[24px] my-[80px] mx-[80px] max-w-[1232px]">
       {/* // TRAVEL CARD */}
       <div className="relative max-w-[604px] max-h-[559px] flex justify-center">
         <Image
