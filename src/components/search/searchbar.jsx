@@ -19,8 +19,8 @@ export default function SearchBar() {
         </div>
       </div>
       {/*-------- TRAVEL INPUT --------*/}
-      <div className="input-section grid grid-flow-col auto-cols-max gap-8 my-6">
-        <div className="from-input relative">
+      <div className="input-section flex gap-8 my-6">
+        <div className="from-input relative flex-1">
           <p className="absolute top-[-12px] left-[10px]">
             <span className="bg-white pl-2 pr-1.5">From - To</span>
           </p>
@@ -30,7 +30,7 @@ export default function SearchBar() {
             className="input input-bordered w-full max-w-xs"
           />
         </div>
-        <div className="from-input relative">
+        <div className="from-input relative flex-1">
           <p className="absolute top-[-12px] left-[10px]">
             <span className="bg-white pl-2 pr-1.5">Depart - Return</span>
           </p>
@@ -40,7 +40,7 @@ export default function SearchBar() {
             className="input input-bordered w-full max-w-xs"
           />
         </div>
-        <div className="from-input relative">
+        <div className="from-input relative flex-1">
           <p className="absolute top-[-12px] left-[10px]">
             <span className="bg-white pl-2 pr-1.5">Passenger - Class</span>
           </p>
