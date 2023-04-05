@@ -14,10 +14,6 @@ export default function Reviews() {
       <div className="carousel carousel-center max-w-[2000px] p-4 space-x-[48px] rounded-box">
         <ReviewCard />
         <ReviewCard />
-        <ReviewCard />
-        <ReviewCard />
-        <ReviewCard />
-        <ReviewCard />
       </div>
     </div>
   );
