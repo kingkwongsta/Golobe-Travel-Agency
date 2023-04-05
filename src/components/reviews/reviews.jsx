@@ -1,6 +1,7 @@
 import Image from "next/image";
 import placeholder from "./../../../public/travel-placeholder.jpg";
 import star from "./../../../public/gold-star.png";
+import google from "./../../../public/google-icon.png";
 
 export default function Reviews() {
   return (
@@ -24,7 +25,14 @@ export default function Reviews() {
             <Image src={star} height={24} width={24} alt="star" />
             <Image src={star} height={24} width={24} alt="star" />
           </div>
-
+          <div className="review-person">
+            <p className="text-md">Olga</p>
+            <p className="text-md">Weave Studios – Kai Tak</p>
+          </div>
+          <div className="review-source flex flex-row">
+            <Image src={google} height={24} width={24} alt="google" />
+            <p className="text-md">Google</p>
+          </div>
           <Image src={placeholder} width={377} height={200} alt="text" />
         </div>
       </div>
