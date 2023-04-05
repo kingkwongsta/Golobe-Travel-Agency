@@ -6,7 +6,7 @@ import SearchBar from "../components/search/searchbar";
 import Discover from "../components/discover/discover";
 import TravelCard from "./../components/travelcard";
 import Test from "./../components/test";
-import Center from "./../components/center";
+import Reviews from "./../components/reviews/reviews";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,9 +21,10 @@ export default function Home() {
       </Head>
       <NavBar />
       <main className="">
-        <SearchBar />
+        <Reviews />
+        {/* <SearchBar />
         <Discover />
-        <TravelCard />
+        <TravelCard /> */}
       </main>
     </>
   );
