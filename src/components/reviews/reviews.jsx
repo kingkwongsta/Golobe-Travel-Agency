@@ -11,7 +11,10 @@ export default function Reviews() {
         <div className="text-3xl">Reviews</div>
         <p className="text-lg">What people says about Golobe facilities</p>
       </div>
-      <div className="carousel carousel-center max-w-[2000px] p-4 space-x-[48px] rounded-box">
+      <div className="carousel p-4 space-x-[48px] rounded-box">
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
         <ReviewCard />
         <ReviewCard />
       </div>

@@ -6,41 +6,45 @@ import google from "./../../../public/google-icon.png";
 export default function ReviewCard() {
   return (
     <>
-      <div className="carousel-item w-[450px] h-[608px] flex">
-        <div className="w-[425px] h-[584px] flex flex-col shadow-md shadow-[#1122111a] rounded-[20px] bg-white absolute p-[24px]">
-          <p className="text-2xl">“A real sense of community, nurtured”</p>
-          <p className="text-lg">
-            Really appreciate the help and support from the staff during these
-            tough times. Shoutout to Katie for helping me always, even when I
-            was out of the country. And always available when needed.
-          </p>
-          <p className="text-lg">View more</p>
-          <div className="starz flex flex-row gap-[12px]">
-            <Image src={star} height={24} width={24} alt="star" />
-            <Image src={star} height={24} width={24} alt="star" />
-            <Image src={star} height={24} width={24} alt="star" />
-            <Image src={star} height={24} width={24} alt="star" />
-          </div>
-          <div className="review-person">
-            <p className="text-md">Olga</p>
-            <p className="text-md">Weave Studios – Kai Tak</p>
-          </div>
-          <div className="review-source flex flex-row">
-            <Image src={google} height={24} width={24} alt="google" />
-            <p className="text-md">Google</p>
-          </div>
-          <Image
-            className="max-w-[377px] max-h-[200px] rounded-md"
-            src={placeholder}
-            width={377}
-            height={200}
-            alt="text"
-          />
-        </div>
-        <div className="relative bg-[#8dd3bb66] w-[425px] h-[586px] -z-10 -bottom-[24px] -right-[26px] rounded-[20px]">
-          <h2>HELLO</h2>
-        </div>
-      </div>
+      <div className="carousel-item w-[450px] h-[608px]">{inside()}</div>
     </>
+  );
+}
+
+function inside() {
+  return (
+    <div>
+      <div className="w-[425px] h-[584px] flex flex-col shadow-md shadow-[#1122111a] rounded-[20px] bg-white absolute p-[24px] z-50">
+        <p className="text-2xl">“A real sense of community, nurtured”</p>
+        <p className="text-lg">
+          Really appreciate the help and support from the staff during these
+          tough times. Shoutout to Katie for helping me always, even when I was
+          out of the country. And always available when needed.
+        </p>
+        <p className="text-lg">View more</p>
+        <div className="starz flex flex-row gap-[12px]">
+          <Image src={star} height={24} width={24} alt="star" />
+          <Image src={star} height={24} width={24} alt="star" />
+          <Image src={star} height={24} width={24} alt="star" />
+          <Image src={star} height={24} width={24} alt="star" />
+        </div>
+        <div className="review-person">
+          <p className="text-md">Olga</p>
+          <p className="text-md">Weave Studios – Kai Tak</p>
+        </div>
+        <div className="review-source flex flex-row">
+          <Image src={google} height={24} width={24} alt="google" />
+          <p className="text-md">Google</p>
+        </div>
+        <Image
+          className="max-w-[377px] max-h-[200px] rounded-md"
+          src={placeholder}
+          width={377}
+          height={200}
+          alt="text"
+        />
+      </div>
+      <div className="relative bg-[#8dd3bb66] w-[425px] h-[586px] -bottom-[24px] -right-[26px] rounded-[20px]"></div>
+    </div>
   );
 }
