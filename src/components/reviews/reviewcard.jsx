@@ -9,14 +9,15 @@ export default function ReviewCard() {
       <div className="w-[450px] h-[608px]">
         <div>
           <div className="w-[425px] h-[584px] flex flex-col shadow-md shadow-[#1122111a] rounded-[20px] bg-white absolute p-[24px] z-50">
-            <p className="text-2xl">“A real sense of community, nurtured”</p>
-            <p className="text-lg">
-              Really appreciate the help and support from the staff during these
-              tough times. Shoutout to Katie for helping me always, even when I
-              was out of the country. And always available when needed.
+            <p className="text-2xl mb-[30px]">
+              “A real sense of community, nurtured”
             </p>
-            <p className="text-lg">View more</p>
-            <div className="starz flex flex-row gap-[12px]">
+            <p className="text-lg mb-[12px]">
+              Really appreciate the help and support from the staff during these
+              tough times. Shoutout to Katie for...
+            </p>
+            <p className="text-lg mb-[16px]">View more</p>
+            <div className="starz flex flex-row gap-[12px] mb-[20px]">
               <Image src={star} height={24} width={24} alt="star" />
               <Image src={star} height={24} width={24} alt="star" />
               <Image src={star} height={24} width={24} alt="star" />
