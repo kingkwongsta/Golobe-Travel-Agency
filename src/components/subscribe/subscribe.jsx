@@ -3,7 +3,7 @@ import mail from "./../../../public/img/mailbox.png";
 
 export default function Subscribe() {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row bg-[#CDEAE1]">
       {/* LEFT SIDE */}
       <div className="flex flex-col basis-[808px]">
         <p>Subscribe</p>
