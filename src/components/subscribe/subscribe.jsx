@@ -12,8 +12,10 @@ export default function Subscribe() {
         <p className="text-[44px] font-[700] leading-[54px] text-[#112211]">
           Newsletter
         </p>
-        <p className="text-[700] text-[20px] leading-[25px]">The Travel</p>
-        <p>
+        <p className="text-[700] text-[20px] leading-[25px] text-[#112211]">
+          The Travel
+        </p>
+        <p className="text-[500] text-[16px] leading-[20px] text-[#112211]">
           Get inspired! Receive travel discounts, tips and behind the scenes
           stories.
         </p>
@@ -21,9 +23,11 @@ export default function Subscribe() {
           <input
             type="text"
             placeholder="Your email address"
-            className="input w-full max-w-[473px] max-h-[56px]"
+            className="input w-full max-w-[473px] max-h-[56px] text-[400] text-[16px] leading-[20px] text-[#1C1B1F]"
           />
-          <button className="btn">Subscribe</button>
+          <button className="btn text-[600] text-[14px] leading-[17px] text-[#FFFFFF]">
+            Subscribe
+          </button>
         </div>
       </div>
       {/* RIGHT SIDE */}
