@@ -22,7 +22,7 @@ export default function Home() {
         <SearchBar />
         <Discover />
         <TravelCard />
-        <Reviews />
+        {/* <Reviews /> */}
         <Subscribe />
         <div className="max-w-[1200px] h-[500px] min-h-[500px]">hello</div>
       </main>
