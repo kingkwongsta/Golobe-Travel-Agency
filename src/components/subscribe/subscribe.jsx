@@ -6,9 +6,13 @@ export default function Subscribe() {
     <div className="flex flex-row bg-[#CDEAE1]">
       {/* LEFT SIDE */}
       <div className="flex flex-col basis-[808px]">
-        <p>Subscribe</p>
-        <p>Newsletter</p>
-        <p>The Travel</p>
+        <p className="text-[44px] font-[700] leading-[54px] text-[#112211]">
+          Subscribe
+        </p>
+        <p className="text-[44px] font-[700] leading-[54px] text-[#112211]">
+          Newsletter
+        </p>
+        <p className="text-[700] text-[20px] leading-[25px]">The Travel</p>
         <p>
           Get inspired! Receive travel discounts, tips and behind the scenes
           stories.

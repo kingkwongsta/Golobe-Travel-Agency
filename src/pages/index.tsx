@@ -19,11 +19,12 @@ export default function Home() {
       </Head>
       <NavBar />
       <main className="">
-        <Subscribe />
-        {/* <SearchBar />
+        <SearchBar />
         <Discover />
         <TravelCard />
-        <Reviews /> */}
+        <Reviews />
+        <Subscribe />
+        <div className="max-w-[1200px] h-[500px] min-h-[500px]">hello</div>
       </main>
     </>
   );
