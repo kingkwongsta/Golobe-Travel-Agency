@@ -6,6 +6,7 @@ import Discover from "../components/discover/discover";
 import TravelCard from "./../components/travelcard";
 import Test from "./../components/test";
 import Reviews from "./../components/reviews/reviews";
+import Subscribe from "./../components/subscribe/subscribe";
 
 export default function Home() {
   return (
@@ -18,10 +19,11 @@ export default function Home() {
       </Head>
       <NavBar />
       <main className="">
-        <Reviews />
+        <Subscribe />
         {/* <SearchBar />
         <Discover />
-        <TravelCard /> */}
+        <TravelCard />
+        <Reviews /> */}
       </main>
     </>
   );
