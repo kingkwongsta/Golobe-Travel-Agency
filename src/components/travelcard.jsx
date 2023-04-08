@@ -17,10 +17,10 @@ export default function TravelCard() {
         <h2 className="absolute bottom-[150px] w-full text-center text-[700] text-[40px] leading-[51px] text-[#FFFFFF] ">
           Flights
         </h2>
-        <p className="absolute bottom-[90px] w-full text-center text-md text-neutral-50 max-w-[389px]">
+        <p className="absolute bottom-[90px] w-full text-center text-[400] text-[16px] leading-[20px] text-[#FFFFFF] max-w-[389px]">
           Search Flights & Places Hire to our most popular destinations
         </p>
-        <button className="absolute bottom-[20px] btn btn-primary">
+        <button className="absolute bottom-[20px] btn btn-primary text-[500] text-[14px] leading-[17px] text-[#112211]">
           Show Flights
         </button>
       </div>
@@ -33,13 +33,13 @@ export default function TravelCard() {
           height={559}
           alt="flight bgd"
         />
-        <h2 className="absolute bottom-[150px] w-full text-center text-4xl text-neutral-50">
+        <h2 className="absolute bottom-[150px] w-full text-center text-[700] text-[40px] leading-[51px] text-[#FFFFFF]">
           Flights
         </h2>
-        <p className="absolute bottom-[90px] w-full text-center text-md text-neutral-50 max-w-[389px]">
+        <p className="absolute bottom-[90px] w-full text-center text-[400] text-[16px] leading-[20px] text-[#FFFFFF] max-w-[389px]">
           Search Hotels & Places Hire to our most popular destinations
         </p>
-        <button className="absolute bottom-[20px] btn btn-primary">
+        <button className="absolute bottom-[20px] btn btn-primary text-[500] text-[14px] leading-[17px] text-[#112211]">
           Show Flights
         </button>
       </div>
