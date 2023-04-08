@@ -9,8 +9,10 @@ export default function Discovery() {
     <div className="my-[80px] mx-[80px] max-w-[1232px]">
       <div className="flex flex-row justify-between content-center mb-[40px]">
         <div>
-          <h2 className="mb-[16px] text-3xl">Plan your perfect trip</h2>
-          <p className="text-lg">
+          <h2 className="mb-[16px] text-[600] text-[32px] leading-[39px] text-[#000000]">
+            Plan your perfect trip
+          </h2>
+          <p className="text-[400] text-[16px] leading-[20px] text-[#112211] opacity-[.75]">
             Search Flights & Places Hire to our most popular destinations
           </p>
         </div>
