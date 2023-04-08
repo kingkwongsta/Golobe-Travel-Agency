@@ -14,7 +14,7 @@ export default function TravelCard() {
           height={559}
           alt="flight bgd"
         />
-        <h2 className="absolute bottom-[150px] w-full text-center text-4xl text-neutral-50">
+        <h2 className="absolute bottom-[150px] w-full text-center text-[700] text-[40px] leading-[51px] text-[#FFFFFF] ">
           Flights
         </h2>
         <p className="absolute bottom-[90px] w-full text-center text-md text-neutral-50 max-w-[389px]">
