@@ -12,12 +12,22 @@ export default function CityCard({}) {
         alt="placeholder"
       />
       <div>
-        <p>Istanbul, Turkey</p>
-        <span>Flights </span>
+        <p className="text-[600] text-[16px] text-[#112211] leading-[20px]">
+          Istanbul, Turkey
+        </p>
+        <span className="text-[500] text-[14px] text-[#112211] leading-[17px]">
+          Flights{" "}
+        </span>
         <span> . </span>
-        <span> Hotels </span>
+        <span className="text-[500] text-[14px] text-[#112211] leading-[17px]">
+          {" "}
+          Hotels{" "}
+        </span>
         <span> . </span>
-        <span> Resorts</span>
+        <span className="text-[500] text-[14px] text-[#112211] leading-[17px]">
+          {" "}
+          Resorts
+        </span>
       </div>
     </div>
   );
