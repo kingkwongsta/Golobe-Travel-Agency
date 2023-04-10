@@ -4,12 +4,13 @@ import { Montserrat } from "@next/font/google";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
+  variable: "--font-montserrat",
 });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     // <div className="bg-[#FAFAFA]">
-    <div className={montserrat.className}>
+    <div className={`${montserrat.variable} font-sans`}>
       <div className="bg-[#FAFAFA]">
         <Component {...pageProps} />
       </div>
