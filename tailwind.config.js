@@ -10,9 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // fontFamily: {
-      //   sans: ["var(--font-montserrat)"],
-      // },
+      fontFamily: {
+        sans: ["var(--font-montserrat)"],
+      },
     },
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
