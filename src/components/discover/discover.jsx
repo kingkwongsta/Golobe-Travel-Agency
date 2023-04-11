@@ -16,7 +16,9 @@ export default function Discovery() {
             Search Flights & Places Hire to our most popular destinations
           </p>
         </div>
-        <button className="btn btn-outline">See more places</button>
+        <button className="btn btn-outline min-w-[149px] text-[14px] font-[500] text-[#112211] normal-case border-[#8DD3BB]">
+          See more places
+        </button>
       </div>
       <div className="grid grid-cols-3 gap-[32px]">{renderCityElements()}</div>
     </div>
