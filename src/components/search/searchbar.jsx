@@ -75,7 +75,7 @@ export default function SearchBar() {
               <p className="font-[500] text-[14px] text-[#112211]">
                 + Add Promo Code
               </p>
-              <button className="btn btn-primary font-[500] text-[14px] text-[#112211]">
+              <button className="btn btn-primary font-[500] text-[14px] text-[#112211] max-h-[48px] capitalize bg-[#8DD3BB]">
                 Show Flights
               </button>
             </div>
