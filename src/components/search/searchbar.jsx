@@ -35,34 +35,38 @@ export default function SearchBar() {
             <div className="input-section flex gap-8 my-6">
               <div className="from-input relative flex-1">
                 <p className="absolute top-[-12px] left-[10px]">
-                  <span className="bg-white pl-2 pr-1.5">From - To</span>
+                  <span className="bg-white pl-2 pr-1.5 font-[400] text-[14px] text-[#112211]">
+                    From - To
+                  </span>
                 </p>
                 <input
                   type="text"
                   placeholder="Los Angeles - Taipei"
-                  className="input input-bordered w-full max-w-xs"
+                  className="input input-bordered w-full max-w-xs font-[400] text-[16px] text-[#1C1B1F]"
                 />
               </div>
               <div className="from-input relative flex-1">
                 <p className="absolute top-[-12px] left-[10px]">
-                  <span className="bg-white pl-2 pr-1.5">Depart - Return</span>
+                  <span className="bg-white pl-2 pr-1.5 font-[400] text-[14px] text-[#112211]">
+                    Depart - Return
+                  </span>
                 </p>
                 <input
                   type="text"
                   placeholder="Type here"
-                  className="input input-bordered w-full max-w-xs"
+                  className="input input-bordered w-full max-w-xs font-[400] text-[16px] text-[#1C1B1F]"
                 />
               </div>
               <div className="from-input relative flex-1">
                 <p className="absolute top-[-12px] left-[10px]">
-                  <span className="bg-white pl-2 pr-1.5">
+                  <span className="bg-white pl-2 pr-1.5 font-[400] text-[14px] text-[#112211]">
                     Passenger - Class
                   </span>
                 </p>
                 <input
                   type="text"
                   placeholder="Type here"
-                  className="input input-bordered w-full max-w-xs"
+                  className="input input-bordered w-full max-w-xs font-[400] text-[16px] text-[#1C1B1F]"
                 />
               </div>
             </div>
