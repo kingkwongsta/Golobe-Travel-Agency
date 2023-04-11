@@ -72,8 +72,12 @@ export default function SearchBar() {
             </div>
             {/*-------- PROMO + SHOW OPTIONS BUTTON --------*/}
             <div className="flex flex-row justify-end items-center gap-6 my-6">
-              <p>+ Add Promo Code</p>
-              <button className="btn btn-primary">Show Flights</button>
+              <p className="font-[500] text-[14px] text-[#112211]">
+                + Add Promo Code
+              </p>
+              <button className="btn btn-primary font-[500] text-[14px] text-[#112211]">
+                Show Flights
+              </button>
             </div>
           </div>
         </div>
