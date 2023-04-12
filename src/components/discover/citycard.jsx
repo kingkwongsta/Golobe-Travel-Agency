@@ -12,18 +12,18 @@ export default function CityCard({ city, img }) {
         alt="placeholder"
       />
       <div>
-        <p className="font-[600] text-[16px] text-[#112211] leading-[20px]">
+        <p className="font-[600] text-[16px] text-[#112211] leading-[20px] opacity-[.7]">
           {city}
         </p>
         <span className="font-[500] text-[14px] text-[#112211] leading-[17px]">
           Flights{" "}
         </span>
-        <span> . </span>
+        <span className="font-[500] text-[14px] mx-[3px]"> • </span>
         <span className="font-[500] text-[14px] text-[#112211] leading-[17px]">
           {" "}
           Hotels{" "}
         </span>
-        <span> . </span>
+        <span className="font-[500] text-[14px] mx-[3px]"> • </span>
         <span className="font-[500] text-[14px] text-[#112211] leading-[17px]">
           {" "}
           Resorts
