@@ -3,7 +3,7 @@ import placeholder from "./../../../public/discover-placeholder.png";
 
 export default function CityCard({ city, img }) {
   return (
-    <div className="flex items-center bg-[#ffffff] rounded-[16px] shadow-[0px_4px_16px_0px_rgba(17,34,17,0.05)] max-w-[389.33px] max-h-[122px]">
+    <div className="flex items-center bg-[#ffffff] rounded-[16px] shadow-[0px_4px_16px_0px_rgba(17,34,17,0.05)] min-w-[389.33px] max-h-[122px] p-[16px]">
       <Image
         className="mr-[16px] max-w-[90px] max-h-[90px]"
         src={img}
