@@ -1,12 +1,9 @@
 import CityCard from "./citycard";
-import istanbul from "./../../../public/img/discover/istanbul.avif";
+import cityData from "./../../../src/pages/api/discoveryData";
 
 export default function Discovery() {
   function renderCityElements() {
-    const cityElements = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-    const test = [{ city: "Istanbul, Turkey", img: istanbul }];
-
-    return test.map((x, index) => (
+    return cityData.map((x, index) => (
       <CityCard key={index} city={x.city} img={x.img} />
     ));
   }
