@@ -1,9 +1,11 @@
 import CityCard from "./citycard";
+import cityData from "./../../../src/pages/api/discoveryData";
 
 export default function Discovery() {
   function renderCityElements() {
-    const cityElements = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-    return cityElements.map((x, index) => <CityCard key={index} />);
+    return cityData.map((x, index) => (
+      <CityCard key={index} city={x.city} img={x.img} />
+    ));
   }
   return (
     <div className="my-[80px] mx-[80px] max-w-[1232px]">
