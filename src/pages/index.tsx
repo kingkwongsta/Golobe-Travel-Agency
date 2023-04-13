@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <main className="">
+      <main className="flex flex-col items-center justify-center">
         <SearchBar />
         <Discover />
         <TravelCard />
