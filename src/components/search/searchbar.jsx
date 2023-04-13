@@ -15,6 +15,17 @@ export default function SearchBar() {
           height={581}
           alt="cover-photo"
         />
+        <div className="absolute text-center bottom-[240px]">
+          <p className="font-[400] text-[45px] text-[#FFFFFF]">
+            Helping Others
+          </p>
+          <p className="font-[500] text-[80px] text-[#FFFFFF] capitalize">
+            LIVE & TRAVEL
+          </p>
+          <p className="font-[400] text-[20px] text-[#FFFFFF]">
+            Special offers to suit your plan
+          </p>
+        </div>
         {/* Search Bar */}
         <div className="max-w-[1232px] w-full rounded-[16px] absolute bottom-[-150px] bg-white shadow-md shadow-[#8dd3bb26]">
           {/* SEARCH COMPONENTS */}
