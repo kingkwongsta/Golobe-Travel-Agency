@@ -4,9 +4,9 @@ import NavBar from "../components/navbar";
 import SearchBar from "../components/search/searchbar";
 import Discover from "../components/discover/discover";
 import TravelCard from "./../components/travelcard";
-import Test from "./../components/test";
 import Reviews from "./../components/reviews/reviews";
 import Subscribe from "./../components/subscribe/subscribe";
+import Footer from "./../components/footer";
 
 export default function Home() {
   return (
@@ -23,6 +23,8 @@ export default function Home() {
         <Discover />
         <TravelCard />
         <Reviews />
+        <Subscribe />
+        <Footer />
       </main>
     </>
   );
