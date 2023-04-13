@@ -15,7 +15,8 @@ export default function SearchBar() {
           height={581}
           alt="cover-photo"
         />
-        <div className="absolute text-center bottom-[240px]">
+        <div className="linearbgd"></div>
+        <div className="absolute text-center bottom-[240px] z-10">
           <p className="font-[400] text-[45px] text-[#FFFFFF]">
             Helping Others
           </p>
@@ -27,7 +28,7 @@ export default function SearchBar() {
           </p>
         </div>
         {/* Search Bar */}
-        <div className="max-w-[1232px] w-full rounded-[16px] absolute bottom-[-150px] bg-white shadow-md shadow-[#8dd3bb26]">
+        <div className="max-w-[1232px] w-full rounded-[16px] absolute bottom-[-150px] bg-white shadow-md shadow-[#8dd3bb26] z-10">
           {/* SEARCH COMPONENTS */}
           <div className="m-[24px]">
             {/*-------- FLIGHTS OR STAY --------*/}
