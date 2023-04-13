@@ -1,10 +1,11 @@
 import Image from "next/image";
 import flightCard from "./../../public/flightcard.avif";
 import stayCard from "./../../public/staycard.avif";
+import send from "./../../public/img/send.png";
 
 export default function TravelCard() {
   return (
-    <div className="flex flex-row gap-[24px] my-[80px] mx-[80px] max-w-[1232px]">
+    <div className="flex flex-row gap-[24px] my-[40px] mx-[80px] max-w-[1232px]">
       {/* // TRAVEL CARD */}
       <div className="relative max-w-[604px] max-h-[559px] flex justify-center">
         <Image
@@ -21,6 +22,13 @@ export default function TravelCard() {
           Search Flights & Places Hire to our most popular destinations
         </p>
         <button className="absolute bottom-[20px] btn btn-primary font-[500] text-[14px] leading-[17px] text-[#112211] bg-[#8DD3BB] normal-case">
+          <Image
+            className="mr-[5px]"
+            src={send}
+            width={17}
+            height={17}
+            alt="send"
+          />
           Show Flights
         </button>
       </div>
@@ -40,7 +48,14 @@ export default function TravelCard() {
           Search Hotels & Places Hire to our most popular destinations
         </p>
         <button className="absolute bottom-[20px] btn btn-primary font-[500] text-[14px] leading-[17px] text-[#112211] bg-[#8DD3BB] normal-case">
-          Show Flights
+          <Image
+            className="mr-[5px]"
+            src={send}
+            width={17}
+            height={17}
+            alt="send"
+          />
+          Show Hotels
         </button>
       </div>
     </div>
