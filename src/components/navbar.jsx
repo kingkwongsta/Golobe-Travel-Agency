@@ -9,12 +9,28 @@ export default function NavBar() {
       <div className="navbar-start">
         <div className="menu menu-horizontal px-1 sm:max-md:hidden">
           <div className="flex flex-row mr-5">
-            <Image src={airplane} height={24} width={24} alt="airplane" />
-            <a>Find Flights</a>
+            <Image
+              className="mr-[4px]"
+              src={airplane}
+              height={24}
+              width={24}
+              alt="airplane"
+            />
+            <span className="font-[600] text-[14px] text-[#112211]">
+              Find Flights
+            </span>
           </div>
           <div className="flex flex-row">
-            <Image src={stays} height={24} width={24} alt="airplane" />
-            <span>Stays</span>
+            <Image
+              className="mr-[4px]"
+              src={stays}
+              height={24}
+              width={24}
+              alt="airplane"
+            />
+            <span className="font-[600] text-[14px] text-[#112211]">
+              Find Stays
+            </span>
           </div>
         </div>
         {/* Hamburger Menu */}
