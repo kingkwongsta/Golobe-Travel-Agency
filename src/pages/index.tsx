@@ -23,7 +23,6 @@ export default function Home() {
         <Discover />
         <TravelCard />
         <Reviews />
-        <Subscribe />
         <Footer />
       </main>
     </>
