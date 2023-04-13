@@ -23,7 +23,7 @@ export default function Reviews() {
   }
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className="my-[80px] mt-[80px] mb-[40px] lg:min-w-[1232px] max-w-[1232px] flex justify-between">
+      <div className="my-[80px] mt-[40px] mb-[40px] lg:min-w-[1232px] max-w-[1232px] flex justify-between">
         {/* TOP SECTION */}
         <div>
           <p className="font-[600] text-[32px]">Reviews</p>
