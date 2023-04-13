@@ -1,24 +1,16 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import localFont from "@next/font/local";
+import { Montserrat } from "@next/font/google";
 
-// const gothic = localFont({
-//   src: [
-//     {
-//       path: "../../public/font/Trade Gothic/Trade Gothic LT.ttf",
-//       weight: "500",
-//     },
-//     {
-//       path: "../../public/font/Trade Gothic/Trade Gothic LT.ttf",
-//       weight: "700",
-//     },
-//   ],
-//   variable: "--font-gothic",
-// });
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+});
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className="bg-[#FAFAFA]">
+    // <div className="bg-[#FAFAFA]">
+    <div className={`${montserrat.variable} font-sans bg-[#FAFAFA]`}>
       <Component {...pageProps} />
     </div>
   );
