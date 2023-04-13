@@ -19,7 +19,7 @@ const reviewData = [
     tagline: "“A real sense of community, nurtured”",
     review:
       "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for...",
-    star: 5,
+    star: 4,
     name: "Elliot",
     source: "Weave Studios – Kai Tak",
   },

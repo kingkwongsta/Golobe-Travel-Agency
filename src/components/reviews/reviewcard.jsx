@@ -1,9 +1,21 @@
 import Image from "next/image";
 import placeholder from "./../../../public/travel-placeholder.jpg";
-import star from "./../../../public/gold-star.png";
+import starImg from "./../../../public/gold-star.png";
 import google from "./../../../public/google-icon.png";
+import { render } from "react-dom";
 
-export default function ReviewCard() {
+export default function ReviewCard({ tagline, review, star, name, source }) {
+  function renderStarElements() {
+    const starArray = [];
+    for (let i = 0; i < star; i++) {
+      starArray.push("star");
+    }
+    return starArray.map((x, index) => {
+      return (
+        <Image key={index} src={starImg} height={24} width={24} alt="star" />
+      );
+    });
+  }
   return (
     <>
       <div className="w-[450px] h-[608px]">
@@ -19,11 +31,9 @@ export default function ReviewCard() {
             <p className="text-[14px] font-[700] mb-[16px] text-right">
               View more
             </p>
+            {/* -----STARS----- */}
             <div className="starz flex flex-row gap-[12px] mb-[20px]">
-              <Image src={star} height={24} width={24} alt="star" />
-              <Image src={star} height={24} width={24} alt="star" />
-              <Image src={star} height={24} width={24} alt="star" />
-              <Image src={star} height={24} width={24} alt="star" />
+              {renderStarElements()}
             </div>
             <div className="review-person mb-[12px]">
               <p className="text-[14px] font-[700]">Olga</p>
