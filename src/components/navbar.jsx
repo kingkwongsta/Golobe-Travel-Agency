@@ -5,16 +5,32 @@ import logo from "./../../public/logo.png";
 
 export default function NavBar() {
   return (
-    <div className="navbar bg-base-100 mx-[80px] max-w-[1232px]">
+    <div className="navbar bg-base-100 px-[104px] min-h-[90px] w-full max-w-[1440px] shadow-[0_4px_16px_-0px_rgba(17,34,17,0.05)]">
       <div className="navbar-start">
         <div className="menu menu-horizontal px-1 sm:max-md:hidden">
           <div className="flex flex-row mr-5">
-            <Image src={airplane} height={24} width={24} alt="airplane" />
-            <a>Find Flights</a>
+            <Image
+              className="mr-[4px]"
+              src={airplane}
+              height={24}
+              width={24}
+              alt="airplane"
+            />
+            <span className="font-[600] text-[14px] text-[#112211]">
+              Find Flights
+            </span>
           </div>
           <div className="flex flex-row">
-            <Image src={stays} height={24} width={24} alt="airplane" />
-            <span>Stays</span>
+            <Image
+              className="mr-[4px]"
+              src={stays}
+              height={24}
+              width={24}
+              alt="airplane"
+            />
+            <span className="font-[600] text-[14px] text-[#112211]">
+              Find Stays
+            </span>
           </div>
         </div>
         {/* Hamburger Menu */}
@@ -54,10 +70,12 @@ export default function NavBar() {
       <div className="navbar-end">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Login</a>
+            <a className="font-[600] text-[14px] text-[#112211]">Login</a>
           </li>
           <li>
-            <a className="btn btn-primary">Sign Up</a>
+            <a className="btn btn-primary normal-case min-w-[104px] min-h-[48px] font-[600] text-[14px] text-[#FFFFFF] bg-[#112211]">
+              Sign Up
+            </a>
           </li>
         </ul>
       </div>

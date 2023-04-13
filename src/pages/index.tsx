@@ -18,13 +18,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <main className="">
+      <main className="flex flex-col items-center justify-center">
         <SearchBar />
         <Discover />
         <TravelCard />
-        {/* <Reviews /> */}
-        <Subscribe />
-        <div className="max-w-[1200px] h-[500px] min-h-[500px]">hello</div>
+        <Reviews />
       </main>
     </>
   );

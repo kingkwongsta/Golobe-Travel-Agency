@@ -6,8 +6,8 @@ import cover from "./../../../public/landing-page-searchbar.avif";
 
 export default function SearchBar() {
   return (
-    <div className="mt-[40px] mb-[180px] mx-[80px] max-w-[1380px]">
-      <div className="relative max-w-[1380px] max-h-[581px] flex justify-center lg:min-w-[1380px]">
+    <div className="mt-[40px] mb-[180px] mx-[80px]">
+      <div className="relative lg:min-w-[1380px] max-h-[581px] flex justify-center">
         <Image
           className="rounded-[24px] flex-shrink-0 min-w-full max-w-full object-cover"
           src={cover}
