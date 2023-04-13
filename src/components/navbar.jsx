@@ -5,7 +5,7 @@ import logo from "./../../public/logo.png";
 
 export default function NavBar() {
   return (
-    <div className="navbar bg-base-100 mx-[80px] max-w-[1232px]">
+    <div className="navbar bg-base-100 px-[104px] w-full shadow-[0_4px_16px_-0px_rgba(17,34,17,0.05)]">
       <div className="navbar-start">
         <div className="menu menu-horizontal px-1 sm:max-md:hidden">
           <div className="flex flex-row mr-5">

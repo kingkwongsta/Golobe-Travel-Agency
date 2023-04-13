@@ -21,10 +21,10 @@ export default function Home() {
       </Head>
       <NavBar />
       <main className="">
-        <Reviews />
-        {/* <SearchBar />
+        <SearchBar />
         <Discover />
-        <TravelCard /> */}
+        <TravelCard />
+        <Reviews />
       </main>
     </>
   );
