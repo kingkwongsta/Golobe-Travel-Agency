@@ -2,8 +2,8 @@ import Subscribe from "./../components/subscribe/subscribe";
 
 export default function Footer() {
   return (
-    <div className="">
-      <div className="w-[1440px] h-[422px] bg-[#8DD3BB] pt-[218px] flex flex-row justify-between px-[104px] relative">
+    <div className="relative w-[1440px] mt-[40px]">
+      <div className="w-[1440px] h-[222px] bg-[#8DD3BB] pt-[20px] flex flex-row justify-between px-[104px]">
         <div>
           <p>hello</p>
           <p>icons</p>
@@ -86,8 +86,8 @@ export default function Footer() {
             Contact Info
           </p>
         </div>
-        <Subscribe className="absolute bottom-[200px] left-[200px]" />
       </div>
+      {/* <Subscribe className="absolute z-10 top-[-10px]" /> */}
     </div>
   );
 }
