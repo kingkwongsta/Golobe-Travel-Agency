@@ -4,9 +4,9 @@ import NavBar from "../components/navbar";
 import SearchBar from "../components/search/searchbar";
 import Discover from "../components/discover/discover";
 import TravelCard from "./../components/travelcard";
-import Test from "./../components/test";
 import Reviews from "./../components/reviews/reviews";
 import Subscribe from "./../components/subscribe/subscribe";
+import Footer from "./../components/footer";
 
 export default function Home() {
   return (
@@ -17,12 +17,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar />
       <main className="flex flex-col items-center justify-center">
+        <NavBar />
         <SearchBar />
         <Discover />
         <TravelCard />
         <Reviews />
+        <Footer />
       </main>
     </>
   );

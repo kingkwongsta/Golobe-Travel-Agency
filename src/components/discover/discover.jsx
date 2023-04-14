@@ -8,7 +8,7 @@ export default function Discovery() {
     ));
   }
   return (
-    <div className="my-[80px] mx-[80px] max-w-[1232px]">
+    <div className="my-[80px] mt-[80px] mb-[40px] max-w-[1232px]">
       <div className="flex flex-row justify-between content-center mb-[40px]">
         <div>
           <h2 className="mb-[16px] font-[600] text-[32px] leading-[39px] text-[#000000]">
