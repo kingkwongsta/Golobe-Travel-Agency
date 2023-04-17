@@ -12,9 +12,12 @@ export default function Footer() {
       <div className="w-[1440px] h-[222px] bg-[#8DD3BB] pt-[30px] flex flex-row justify-between px-[104px]">
         <div className="flex flex-col">
           <Image src={logo} width={120} height={39} alt="company logo" />
-          <div className="flex">
+          <div className="flex gap-[11px] mt-[24px]">
             {" "}
             <Image src={fb} width={20} height={20} alt="fb logo" />
+            <Image src={twitter} width={20} height={20} alt="twitter logo" />
+            <Image src={yt} width={20} height={20} alt="yt logo" />
+            <Image src={ig} width={20} height={20} alt="ig logo" />
           </div>
         </div>
         {/* OUR DESTINATIONS */}
