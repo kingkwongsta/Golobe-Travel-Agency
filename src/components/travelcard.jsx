@@ -15,13 +15,13 @@ export default function TravelCard() {
           height={559}
           alt="flight bgd"
         />
-        <h2 className="absolute bottom-[150px] w-full text-center font-[500] text-[40px] leading-[51px] text-[#FFFFFF] ">
+        <h2 className="absolute bottom-[150px] w-full text-center font-[500] text-[40px] leading-[51px] text-[#FFFFFF] z-10">
           Flights
         </h2>
-        <p className="absolute bottom-[90px] w-full text-center font-[400] text-[16px] leading-[20px] text-[#FFFFFF] max-w-[389px]">
+        <p className="absolute bottom-[90px] w-full text-center font-[400] text-[16px] leading-[20px] text-[#FFFFFF] max-w-[389px] z-10">
           Search Flights & Places Hire to our most popular destinations
         </p>
-        <button className="absolute bottom-[20px] btn btn-primary font-[500] text-[14px] leading-[17px] text-[#112211] bg-[#8DD3BB] normal-case">
+        <button className="absolute bottom-[20px] btn btn-primary font-[500] text-[14px] leading-[17px] text-[#112211] bg-[#8DD3BB] normal-case z-10">
           <Image
             className="mr-[5px]"
             src={send}
@@ -31,6 +31,8 @@ export default function TravelCard() {
           />
           Show Flights
         </button>
+        {/* GRADIENT */}
+        <div className="gradient w-full h-[280px] absolute bottom-[0px]"></div>
       </div>
       {/* // STAY CARD */}
       <div className="relative max-w-[604px] max-h-[559px] flex justify-center">
@@ -41,13 +43,13 @@ export default function TravelCard() {
           height={559}
           alt="flight bgd"
         />
-        <h2 className="absolute bottom-[150px] w-full text-center font-[500] text-[40px] leading-[51px] text-[#FFFFFF]">
+        <h2 className="absolute bottom-[150px] w-full text-center font-[500] text-[40px] leading-[51px] text-[#FFFFFF] z-10">
           Hotels
         </h2>
-        <p className="absolute bottom-[90px] w-full text-center font-[400] text-[16px] leading-[20px] text-[#FFFFFF] max-w-[389px]">
+        <p className="absolute bottom-[90px] w-full text-center font-[400] text-[16px] leading-[20px] text-[#FFFFFF] max-w-[389px] z-10">
           Search Hotels & Places Hire to our most popular destinations
         </p>
-        <button className="absolute bottom-[20px] btn btn-primary font-[500] text-[14px] leading-[17px] text-[#112211] bg-[#8DD3BB] normal-case">
+        <button className="absolute bottom-[20px] btn btn-primary font-[500] text-[14px] leading-[17px] text-[#112211] bg-[#8DD3BB] normal-case z-10">
           <Image
             className="mr-[5px]"
             src={send}
@@ -57,6 +59,8 @@ export default function TravelCard() {
           />
           Show Hotels
         </button>
+        {/* GRADIENT */}
+        <div className="gradient w-full h-[280px] absolute bottom-[0px]"></div>
       </div>
     </div>
   );
