@@ -14,3 +14,13 @@
     rgba(0, 0, 0, 0.5) 110%
   );
 }
+
+.gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(18, 18, 18, 0.75) 48.67%
+  );
+  border-radius: 0px 0px 24px 24px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
