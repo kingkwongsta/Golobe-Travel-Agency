@@ -1,4 +1,5 @@
 # Static Website to Practice CSS
+
 ## Goal: practice CSS to get a near perfect pixel UI
 *page is in not interactive or responsive
 
