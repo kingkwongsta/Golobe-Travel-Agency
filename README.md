@@ -6,7 +6,7 @@
 
 
 ### Goal:  practice CSS to get a near perfect pixel UI
-*page is in not interactive or responsive
+*page is in not interactive or responsive, just for full screen desktop
 
 ### Stack:  Next.js, Tailwind CSS, Daisy UI
 
